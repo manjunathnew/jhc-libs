@@ -7,4 +7,4 @@ def call(ip,creds,warfile) {
              sh "ssh ec2-user@${ip} /opt/tomcat/bin/shutdown.sh"
              sh "ssh ec2-user@${ip} /opt/tomcat/bin/startup.sh"
             }
-           
+          }
